@@ -1,0 +1,6 @@
+@import './../../assets/css/variables.css';
+
+.second {
+  padding: 45px 0;
+  background: var(--color--gray-bg);
+}

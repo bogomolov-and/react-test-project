@@ -1,0 +1,20 @@
+@import './../../assets/css/variables.css';
+
+.container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.text {
+  color: var(--color--brown);
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.arrow {
+  padding: 0 3px;
+  color: var(--color--brown);
+  font-size: 16px;
+  line-height: 16px;
+  cursor: pointer;
+}

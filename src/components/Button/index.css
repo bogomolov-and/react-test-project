@@ -1,0 +1,21 @@
+@import './../../assets/css/variables.css';
+
+.btn {
+  &.btn {
+    background: var(--color--brown);
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: var(--border--radius);
+    transition: all .2s;
+  }
+
+  &:hover.btn {
+    background: var(--color--brown-hover);
+    color: #ffffff;
+  }
+
+  &:active.btn {
+    background: var(--color--brown-active);
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,38 @@
+.sort {
+  & {
+    padding: 25px 0;
+  }
+
+  &-block {
+    display: inline-block;
+    line-height: 15px;
+  }
+
+  &-title {
+    padding-right: 30px;
+    font-size: 20px;
+  }
+
+  &-handle {
+    & {
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    &-arrow {
+      & {
+        display: inline-block;
+        padding: 5px;
+        font-size: 14px;
+      }
+
+      &-up {
+        transform: rotate(90deg);
+      }
+
+      &-down {
+        transform: rotate(-90deg)
+      }
+    }
+  }
+}

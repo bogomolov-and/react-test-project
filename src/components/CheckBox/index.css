@@ -1,0 +1,43 @@
+@import './../../assets/css/variables.css';
+
+.checkbox {
+  & {
+    display: inline-block;
+    margin-right: 40px;
+    padding-left: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .check-block {
+    & {
+      display: inline-block;
+      width: 25px;
+      height: 24px;
+      box-sizing: border-box;
+      background: #ffffff;
+      border: 2px solid var(--color--gray);
+      border-radius: var(--border--radius);
+      position: absolute;
+      left: 0;
+      top: 1px;
+    }
+
+    &.checked {
+      & {
+        border: 2px solid var(--color--brown);
+      }
+      &:before {
+        content: '';
+        display: inline-block;
+        width: 15px;
+        height: 12px;
+        background: url('./../../assets/img/ico.png');
+        position: absolute;
+        top: 4px;
+        left: 3px;
+      }
+    }
+  }
+}

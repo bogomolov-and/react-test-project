@@ -1,0 +1,37 @@
+@import './../../assets/css/variables.css';
+
+.dropdown {
+  & {
+    position: relative;
+  }
+
+  &-label {
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  &-arrow {
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 14px;
+    transform: rotate(90deg);
+  }
+
+  &-pointer {
+    cursor: pointer;
+  }
+
+  .options {
+    display: none;
+    position: absolute;
+    background: #fff;
+    min-width: 80px;
+    padding: 5px 10px;
+    border: 1px solid var(--color--brown);
+    border-radius: var(--border--radius);
+  }
+
+  .visible {
+    display: block;
+  }
+}

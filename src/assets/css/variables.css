@@ -1,0 +1,12 @@
+:root {
+  /* Colors */
+  --color--gray-bg: #f5f6f7;
+  --color--brown: #aa9b77;
+  --color--brown-hover: #968763;
+  --color--brown-active: #82734f;
+  --color--gray: #cccccc;
+  --color--black: #424242;
+
+  /* Borders */
+  --border--radius: 2px;
+}
